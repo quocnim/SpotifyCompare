@@ -3,9 +3,9 @@ from spotipy.oauth2 import SpotifyOAuth
 import pandas as pd
 
 # Set up authentication
-SPOTIPY_CLIENT_ID = //enter id here
-SPOTIPY_CLIENT_SECRET = //enter secret here
-SPOTIPY_REDIRECT_URI = //enter localhost port/url here
+SPOTIPY_CLIENT_ID = # enter id here
+SPOTIPY_CLIENT_SECRET = # enter secret here
+SPOTIPY_REDIRECT_URI = # enter localhost port/url here
 
 def main():
 
@@ -36,8 +36,8 @@ def main():
         return common_tracks
 
     # Replace with your playlist IDs
-    playlist_id_1 = //enter playlist_id_1 here
-    playlist_id_2 = //enter playlist_id_2 here
+    playlist_id_1 = # enter playlist_id_1 here
+    playlist_id_2 = # enter playlist_id_2 here
 
     common_tracks = compare_playlists(playlist_id_1, playlist_id_2)
 
